@@ -16,13 +16,9 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>snapshots</id>
+      <id>2485213-snapshot-ST4E2h</id>
       <url>https://packages.aliyun.com/66ac358a953179b1ec5f4e6b/maven/2485213-snapshot-st4e2h</url>
     </snapshotRepository>
-    <repository>
-      <id>releases</id>
-      <url>https://packages.aliyun.com/66ac358a953179b1ec5f4e6b/maven/2485213-release-qgs53g</url>
-    </repository>
   </distributionManagement>
 
   <repositories>
