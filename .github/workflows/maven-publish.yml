@@ -52,6 +52,7 @@ jobs:
         run: |
           # update release version
           sed -i "s|RELEASE_VERSION: .*|RELEASE_VERSION: ${{ env.RELEASE_VERSION }}|" ./k8s/service-config.yaml
+          sed -i "s|RELEASE_COMMIT: .*|RELEASE_COMMIT: ${{ github.sha }}|" ./k8s/service-config.yaml
           # commit CD files change
           git config --global user.email "ci-bot@example.com"
           git config --global user.name "CI Bot"
