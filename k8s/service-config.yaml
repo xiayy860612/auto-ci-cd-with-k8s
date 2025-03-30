@@ -4,4 +4,4 @@ metadata:
   name: service-config
 data:
   RELEASE_VERSION: 1.0-SNAPSHOT
-  RELEASE_COMMIT: 123456
+  RELEASE_COMMIT: 098cc5f9dbf50340b361b4199614e2be6bbac87a
